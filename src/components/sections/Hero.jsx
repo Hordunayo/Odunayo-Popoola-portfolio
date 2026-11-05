@@ -42,7 +42,8 @@ const Hero = () => {
 
             <FadeIn delay={100}>
               <h1 className="text-4xl md:text-5xl lg:text-4xl font-normal text-white mb-6 leading-tight">
-                I am a <RotatingWord /> Developer
+                <span> I Build </span>
+                <RotatingWord />
               </h1>
             </FadeIn>
 
