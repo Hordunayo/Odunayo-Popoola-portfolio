@@ -18,15 +18,15 @@ function RotatingWord() {
 
   return (
     <span
-      className="inline-block text-[#007bff] transition-all duration-300"
+      className="inline-block text-primary transition-all duration-300"
       style={{
         opacity: fade ? 1 : 0,
         transform: fade ? "translateY(0)" : "translateY(10px)",
       }}
     >
-      {words[index]} & 
+      I am {words[index]}
     </span>
   );
 }
 
-export default RotatingWord
+export default RotatingWord;
