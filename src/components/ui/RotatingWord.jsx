@@ -24,7 +24,7 @@ function RotatingWord() {
         transform: fade ? "translateY(0)" : "translateY(10px)",
       }}
     >
-      I am {words[index]}
+      {words[index]}
     </span>
   );
 }
