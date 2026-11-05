@@ -48,42 +48,42 @@ export const projects = [
     demoUrl: "http://hordunayo-freelancer.surge.sh/",
     githubUrl: "https://github.com/Hordunayo/Freelancer-clone",
   },
-  {
-    id: 5,
-    title: "E-commerce Platform",
-    description:
-      "full-stack online shopping application with real-time inventory management, secure payment and all",
-    image: "image path",
-    category: "Full Stack",
-    technologies: ["React", "Node.js", "MongoDB", "Paystack"],
-    metrics: "40% increase in conversion",
-    demoUrl: "mathhavengroup.com",
-    githubUrl: "mathhavengroup.com",
-  },
-  {
-    id: 6,
-    title: "E-commerce Platform",
-    description:
-      "full-stack online shopping application with real-time inventory management, secure payment and all",
-    image: "image path",
-    category: "Full Stack",
-    technologies: ["React", "Node.js", "MongoDB", "Paystack"],
-    metrics: "40% increase in conversion",
-    demoUrl: "mathhavengroup.com",
-    githubUrl: "mathhavengroup.com",
-  },
-  {
-    id: 7,
-    title: "E-commerce Platform",
-    description:
-      "full-stack online shopping application with real-time inventory management, secure payment and all",
-    image: "image path",
-    category: "Full Stack",
-    technologies: ["React", "Node.js", "MongoDB", "Paystack"],
-    metrics: "40% increase in conversion",
-    demoUrl: "mathhavengroup.com",
-    githubUrl: "mathhavengroup.com",
-  },
+  // {
+  //   id: 5,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "full-stack online shopping application with real-time inventory management, secure payment and all",
+  //   image: "image path",
+  //   category: "Full Stack",
+  //   technologies: ["React", "Node.js", "MongoDB", "Paystack"],
+  //   metrics: "40% increase in conversion",
+  //   demoUrl: "mathhavengroup.com",
+  //   githubUrl: "mathhavengroup.com",
+  // },
+  // {
+  //   id: 6,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "full-stack online shopping application with real-time inventory management, secure payment and all",
+  //   image: "image path",
+  //   category: "Full Stack",
+  //   technologies: ["React", "Node.js", "MongoDB", "Paystack"],
+  //   metrics: "40% increase in conversion",
+  //   demoUrl: "mathhavengroup.com",
+  //   githubUrl: "mathhavengroup.com",
+  // },
+  // {
+  //   id: 7,
+  //   title: "E-commerce Platform",
+  //   description:
+  //     "full-stack online shopping application with real-time inventory management, secure payment and all",
+  //   image: "image path",
+  //   category: "Full Stack",
+  //   technologies: ["React", "Node.js", "MongoDB", "Paystack"],
+  //   metrics: "40% increase in conversion",
+  //   demoUrl: "mathhavengroup.com",
+  //   githubUrl: "mathhavengroup.com",
+  // },
 ];
 
 export const categories = ["All", "Web Apps", "Wordpress", "Full Stack"];

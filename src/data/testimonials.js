@@ -11,13 +11,12 @@ export const Testimonials = [
   },
   {
     id: 2,
-    name: "Samuel Johnson",
-    role: "Business Owner",
-    company: "SJ Ventures",
-    image: "/images/testimonials/founder-mathhaven.jpg",
+    name: "Samuel Oguniyi",
+    role: "Senior Web Developer",
+    company: "",
+    image: "/images/testimonials/Sam.jpg",
     quote:
       "Working with Odunayo was a great experience. He built our website exactly how we wanted and even improved parts of the design. The performance and responsiveness are excellent.",
     rating: 5,
   },
-  
 ];
