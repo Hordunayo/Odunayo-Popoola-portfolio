@@ -13,6 +13,7 @@ import { scrollToSection } from "../../hooks/useScrollSpy";
 import FadeIn from "../animations/FadeIn";
 import RadialGradientBackground from "../backgrounds/RadialGradientBackground";
 import myPic from "../../../public/images/me.png";
+import RotatingWord from "../ui/RotatingWord";
 
 const Hero = () => {
   return (
@@ -33,9 +34,15 @@ const Hero = () => {
               </div>
             </FadeIn>
 
-            <FadeIn delay={100}>
+            {/* <FadeIn delay={100}>
               <h1 className="text-4xl md:text-5xl lg:text-4xl font-normal text-white mb-6 leading-tight">
                 Full-Stack & Wordpress Developer
+              </h1>
+            </FadeIn> */}
+
+            <FadeIn delay={100}>
+              <h1 className="text-4xl md:text-5xl lg:text-4xl font-normal text-white mb-6 leading-tight">
+                <RotatingWord />
               </h1>
             </FadeIn>
 
